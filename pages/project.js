@@ -67,36 +67,43 @@ export default function project() {
                 <p className="leading-relaxed mb-3">
                   nextjs를 이용해 쇼핑몰 예제를 실습함
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
-                  GitHub
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <a className="text-indigo-500 inline-flex items-center">
-                  VERCEL
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link
+                  legacyBehavior
+                  href="https://github.com/jeongseockhyeon/nextshop"
+                >
+                  <a className="text-indigo-500 inline-flex items-center">
+                    GitHub
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
+                <Link legacyBehavior href="nextshop-delta.vercel.app">
+                  <a className="text-indigo-500 inline-flex items-center">
+                    VERCEL
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="p-4 lg:w-1/4">
@@ -107,36 +114,43 @@ export default function project() {
                 <p className="leading-relaxed mb-3">
                   Nextjs와 TailwindCSS를 이용해 중고거래 사이트를 구현
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
-                  GitHub
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <a className="text-indigo-500 inline-flex items-center">
-                  VERCEL
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link
+                  legacyBehavior
+                  href="https://github.com/jeongseockhyeon/JBmarket"
+                >
+                  <a className="text-indigo-500 inline-flex items-center">
+                    GitHub
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
+                <Link legacyBehavior href="j-bmarket.vercel.app">
+                  <a className="text-indigo-500 inline-flex items-center">
+                    VERCEL
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="p-4 lg:w-1/4">
