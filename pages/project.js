@@ -87,7 +87,10 @@ export default function project() {
                     </svg>
                   </a>
                 </Link>
-                <Link legacyBehavior href="https://nextshop-delta.vercel.app">
+                <Link
+                  legacyBehavior
+                  href="https://nextshop-ten-alpha.vercel.app/"
+                >
                   <a className="text-indigo-500 inline-flex items-center">
                     VERCEL
                     <svg
